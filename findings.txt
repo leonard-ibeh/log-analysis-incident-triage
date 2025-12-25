@@ -1,0 +1,18 @@
+Total failed attempts: 3
+
+Source IP(s):
+ - Multiple external IPs (observed via auth.log)
+
+Pattern observed:
+ - Low-volume failed SSH authentication attempts
+ - Likely automated scanning or weak brute-force activity
+
+Severity:
+ - Low
+
+ Recommended actions:
+ - Continue monitoring authentication logs
+ - Implement fail2ban or rate-limiting
+ - Ensure strong passwords and SSH hardening
+
+

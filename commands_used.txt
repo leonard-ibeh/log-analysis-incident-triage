@@ -1,0 +1,10 @@
+Commands used for SSH log analysis:
+
+Count failed SSH login attempts:
+sudo grep "Failed password" /var/log/auth.log | wc -l
+
+Identify source IP addresses:
+sudo grep "Failed password" /var/log/auth.log | awk '{print $11}' | sort | uniq -c | sort -nr
+
+View resent authentication logs: 
+sudo tail -n 50 /var/log/auth.log
