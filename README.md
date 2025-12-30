@@ -2,7 +2,7 @@
 
 
 ## Overview
-THis project demonstrates basic Sencurity Operations Center(SOC) skills by analyzing logs to detect and assess failed SSH login attempts.
+THis project demonstrates basic Security Operations Center(SOC) skills by analyzing logs to detect and assess failed SSH login attempts.
 
 ## Objective
 - Monitor authentication logs
